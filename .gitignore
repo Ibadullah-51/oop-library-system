@@ -1,0 +1,29 @@
+# 1. Byte-compiled / Cache files (Prevents clutter)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Virtual Environments (Prevents uploading heavy libraries)
+venv/
+env/
+ENV/
+.env
+
+# 3. Unit test / Coverage reports
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# 4. IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 5. Build and Distribution (If you eventually package the app)
+build/
+dist/
+*.egg-info/
